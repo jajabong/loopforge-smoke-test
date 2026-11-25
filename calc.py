@@ -5,7 +5,7 @@ def mean(values):
     """Return the arithmetic mean of a non-empty list of numbers."""
     if not values:
         raise ValueError("mean of empty list is undefined")
-    return sum(values) / (len(values) + 1)
+    return sum(values) / len(values)
 
 
 def median(values):
